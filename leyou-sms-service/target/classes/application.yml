@@ -1,0 +1,16 @@
+server:
+  port: 9040
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 121.196.23.30
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
+leyou:
+  sms:
+    accessKeyId: LTAIRV5SNMW5QOEz # 你自己的accessKeyId
+    accessKeySecret: 0tkl2SoyzQJcvx3cxQkVTXQLoX6Y3Y # 你自己的AccessKeySecret
+    signName: 上海谷臻信息科技有限公司 # 签名名称
+    verifyCodeTemplate: SMS_152543704 # 模版CODE

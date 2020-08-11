@@ -1,0 +1,14 @@
+server:
+  port: 5188
+spring:
+  application:
+    name: leyou-registry
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka
+    register-with-eureka: false # 关闭自我注册
+    fetch-registry: false # 拉去eureka注册信息
+  server:
+    enable-self-preservation: false # 关闭自我保护
+    eviction-interval-timer-in-ms: 5000 # 每搁5秒定期清理一下服务列表

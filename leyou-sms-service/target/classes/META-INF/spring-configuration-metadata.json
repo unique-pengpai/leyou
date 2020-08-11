@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.pengpai.sms.properties.SmsProperties",
+      "name": "leyou.sms",
+      "type": "cn.pengpai.sms.properties.SmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.pengpai.sms.properties.SmsProperties",
+      "name": "leyou.sms.access-key-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.pengpai.sms.properties.SmsProperties",
+      "name": "leyou.sms.access-key-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.pengpai.sms.properties.SmsProperties",
+      "name": "leyou.sms.sign-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.pengpai.sms.properties.SmsProperties",
+      "name": "leyou.sms.verify-code-template",
+      "type": "java.lang.String"
+    }
+  ]
+}
