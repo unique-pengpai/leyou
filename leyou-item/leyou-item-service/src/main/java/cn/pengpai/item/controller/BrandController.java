@@ -14,6 +14,7 @@ import java.util.List;
 
 /**
  * 品牌控制层
+ * 创建时间
  */
 @Controller
 @RequestMapping("brand")
