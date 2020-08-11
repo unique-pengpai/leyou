@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+* 创建时间
+*/
 @Controller
 @RequestMapping("brand")
 public class BrandController {
